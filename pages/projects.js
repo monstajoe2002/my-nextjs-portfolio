@@ -1,6 +1,6 @@
 import React from 'react'
 export const getStaticProps = async () => {
-  const res = await fetch('https://api.github.com/users/monstajoe2002/repos')
+  const res = await fetch('https://api.github.com/users/monstajoe2002/repos?sort=newest')
   const data = await res.json();
   return {
     props: {
