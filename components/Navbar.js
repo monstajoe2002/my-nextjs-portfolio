@@ -10,8 +10,8 @@ export default function Navbar() {
             <Link href="/projects">
                 Projects
             </Link>
-            <Link href="https://bit.ly/3pA1rri">
-                <a target="_blank"> Contact</a>
+            <Link href="/contact">
+                Contact
             </Link>
             <Link href="/about">
                 About
