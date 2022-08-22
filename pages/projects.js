@@ -22,7 +22,7 @@ export default function Projects({ repos }) {
             <div className="text-light-blue-50 text-2xl font-semibold"> {repo.language}</div>
             <div className="text-light-blue-50 text-base font-semibold"> {repo.description}</div>
             <button type="button" className="flexP rounded-md bg-dark-blue-50 shadow-lg mt-4 p-2 max-h-max max-w-max items-center hover:scale-110 transition-all ease-in-out duration-300 " >
-              <a href={repo.html_url} target="_blank">Open</a>
+              <a href={repo.html_url}>Open</a>
             </button>
           </div>
         ))}
