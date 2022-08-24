@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -14,6 +15,9 @@ export default function Home() {
         <div className="text-sm text-black font-normal">
           *Yes, my name is all caps because I <strong>LIKE</strong> it bb. <br/>
           Also, I used to produce music so this was my handle.
+        </div>
+        <div className="flex place-content-end transition-opacity after:ease-linear ">
+            <img className=" max-h-[25%] max-w-[25%] rounded-xl" src="/me.jpg" alt="me" />
         </div>
       </div>
 

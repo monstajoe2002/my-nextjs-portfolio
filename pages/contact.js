@@ -45,7 +45,9 @@ const Contact = () => {
                 </div>
 
             </div>
-
+            <div className="text-light-blue-100 text-4xl font-semibold mt-10" >
+                <a href="https://bit.ly/3pA1rri" >For spicy content, click here 🥵</a>
+            </div>
         </div>
     </>);
 }
