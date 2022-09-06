@@ -15,9 +15,9 @@ export default function Projects({ repos }) {
       <div className="text-dark-blue-50 flex justify-center font-semibold text-5xl">
         My Projects
       </div>
-      <div className=" grid grid-cols-3 gap-4 mt-10 p-24 content-center">
+      <div className=" flex flex-wrap place-content-start gap-4 p-24 content-center row-span-4">
         {repos.map((repo) => (
-          <div key={repo.id} className="max-w-sm min-h-lg rounded-xl items overflow-hidden shadow-lg px-6 py-4 flex-auto from-blue-100 to-light-blue-100 bg-gradient-to-l justify-center">
+          <div key={repo.id} className="max-w-sm min-h-lg rounded-xl items overflow-hidden shadow-lg px-6 py-4 flex-auto from-blue-100 to-light-blue-100 bg-gradient-to-l h-80 w-80  ">
             <div className="font-semibold text-3xl mb-2 text-dark-blue-50">{repo.name}</div>
             <div className="text-light-blue-50 text-2xl font-semibold"> {repo.language}</div>
             <div className="text-light-blue-50 text-base font-semibold"> {repo.description}</div>
